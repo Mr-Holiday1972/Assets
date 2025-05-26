@@ -30663,7 +30663,7 @@ MonoBehaviour:
   mousesteer: {fileID: 645435939}
   com: {x: 0, y: 1.6, z: 1.5}
   erpm: 0
-  ims: 0
+  ims: 1
   ce: 0
   ag: 0
   torque: 0
@@ -30678,7 +30678,7 @@ MonoBehaviour:
   merpm: 0
   mwv: 0
   strgv: 0
-  kbd: 0
+  kbd: 1
   mthrtlpv: 0
   strgi: 0
   clchv: 0
