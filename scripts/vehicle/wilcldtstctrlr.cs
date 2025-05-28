@@ -67,6 +67,11 @@ public class wilcldtstctrlr : MonoBehaviour {
                 // rstrg.AddTorque(transform.up * steering);
 
 
+                //rb.RotateAround　　(Rotate object around another object's local (Y in this case) axis)
+                // float rotationSpeed = 50f; // Speed of rotation
+                // lstrg.RotateAround(bdy.position, objectB.up, rotationSpeed * Time.deltaTime);
+
+
                 //scraps
                 // axleInfo.leftWheel.AddTorque(transform.up * (bdyyrt.y + steering));
                 // axleInfo.rightWheel.AddTorque(transform.up * (bdyyrt.y + steering));

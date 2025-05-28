@@ -26827,6 +26827,7 @@ MonoBehaviour:
   _strg: {fileID: 5933986561119723131, guid: da7677a9c823a674d9ca155d14fad585, type: 3}
   _thrtl: {fileID: 2967750460615892776, guid: da7677a9c823a674d9ca155d14fad585, type: 3}
   _brk: {fileID: 1420667783548760506, guid: da7677a9c823a674d9ca155d14fad585, type: 3}
+  _clch: {fileID: 0}
   axleInfos:
   - leftWheel: {fileID: 143505979}
     rightWheel: {fileID: 1895925020}
@@ -26869,7 +26870,7 @@ MonoBehaviour:
   mousesteer: {fileID: 0}
   com: {x: 0, y: 1.4, z: 1.5}
   erpm: 0
-  ims: 0
+  ims: 1
   ce: 0
   ag: 0
   torque: 0
@@ -26887,6 +26888,7 @@ MonoBehaviour:
   kbd: 1
   mthrtlpv: 0
   strgi: 0
+  clchv: 0
 --- !u!54 &5519564259080531350
 Rigidbody:
   m_ObjectHideFlags: 0
