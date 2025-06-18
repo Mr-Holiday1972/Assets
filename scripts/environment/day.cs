@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class day : MonoBehaviour
 {
-    public int hour;
-    public int min;
+    public int h;//hour
+    public int min;//minute
 
-    // Start is called before the first frame update
+    //
     void Start()
     {
         RenderSettings.fogDensity = 0f;
 
-        hour = 12;//����
+        h = 12;//����
         min = 00;
         //���Ԃ̕\�L�F
         //(0)000:�[��0��
@@ -30,12 +30,12 @@ public class day : MonoBehaviour
         if (min == 60)
         {
             min = 0;
-            hour += 1;
+            h += 1;
         }
 
-        if (hour == 24)
+        if (h == 24)
         {
-            hour = 0;
+            h = 0;
         }
     }
 
@@ -43,12 +43,12 @@ public class day : MonoBehaviour
     {
         min += 1;
 
-        if (hour == 19 && min < 52)
+        if (h == 19 && min < 52)
         {
             RenderSettings.fogDensity += 0.00025f;
         }
 
-        if (hour == 5 && min < 52)
+        if (h == 5 && min < 52)
         {
             RenderSettings.fogDensity -= 0.00025f;
         }
