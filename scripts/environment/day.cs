@@ -1,3 +1,6 @@
+//sets the the daytime of the scene, and changes the fog density as it approaches the night.
+//not linked with the day anim, but it has to be to look the best.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
