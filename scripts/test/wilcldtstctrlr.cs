@@ -1,3 +1,5 @@
+//＊Insert a comment here*＊
+//
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,6 +26,11 @@ public class wilcldtstctrlr : MonoBehaviour {
     public Vector3 bdyyrt;//bdy y rot
     public Rigidbody lstrg;
     public Rigidbody rstrg;
+
+    public Transform y1;//get the parent from the axle info list
+    public Transform y2;
+    public Vector3 y1v;//y1 variable
+    public Vector3 y2v;
 
     public void FixedUpdate()
     {
@@ -81,6 +88,18 @@ public class wilcldtstctrlr : MonoBehaviour {
 
                 // axleInfo.leftWheel.velocity = transform.TransformDirection(lflocalVelocity);
                 // axleInfo.rightWheel.velocity = transform.TransformDirection(rflocalVelocity);
+
+                // y1v = y1.rotation;//getting the refernced object'S position
+                // y2v = y2.rotation;
+
+                // y1v.y = steering;//applying the value to the steering (do the ackerman stuff later!)
+                // y2v.y = steering;
+
+                // y1.position =y1v
+                // y2.position =y2v
+
+                y1.rotation = Quaternion.AngleAxis(steering, Vector3.up);
+                y2.rotation = Quaternion.AngleAxis(steering, Vector3.up);
             }
 
             if (axleInfo.motor)
