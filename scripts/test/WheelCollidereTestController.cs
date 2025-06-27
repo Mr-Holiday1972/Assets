@@ -13,7 +13,7 @@ public class OriginalAxleInfo {
 }
      
 public class WheelCollidereTestController : MonoBehaviour {
-    public List<OriginalAxleInfo> axleInfos;
+    public List<OriginalAxleInfo> axleInfos; 
     public float maxMotorTorque;
     public float maxSteeringAngle;
 
