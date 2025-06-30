@@ -2575,7 +2575,7 @@ Transform:
   m_Children:
   - {fileID: 339257815}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &889762011
 Rigidbody:
@@ -3820,7 +3820,7 @@ Transform:
   m_Children:
   - {fileID: 917534922}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1471170417
 Rigidbody:
@@ -5857,6 +5857,7 @@ GameObject:
   - component: {fileID: 5519564259080531351}
   - component: {fileID: 5519564259080531349}
   - component: {fileID: 5519564259080531355}
+  - component: {fileID: 5519564259080531357}
   - component: {fileID: 5519564259080531356}
   m_Layer: 0
   m_Name: Higaki Legacy
@@ -6281,6 +6282,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axleInfos:
+  - leftWheel: {fileID: 0}
+    rightWheel: {fileID: 0}
+    motor: 0
+    steering: 0
+  maxMotorTorque: 0
+  maxSteeringAngle: 0
+  motor: 0
+  steering: 0
+  wltrsfm: {fileID: 0}
+  bdy: {fileID: 0}
+  strg: {x: 0, y: 0, z: 0}
+  bdyyrt: {x: 0, y: 0, z: 0}
+  lstrg: {fileID: 0}
+  rstrg: {fileID: 0}
+--- !u!114 &5519564259080531357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175408789941106473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9f7f996ff3c2e4087d165b3ba4fbd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axleInfos:
   - leftWheel: {fileID: 917534927}
     rightWheel: {fileID: 339257820}
     motor: 0
@@ -6289,16 +6317,14 @@ MonoBehaviour:
     rightWheel: {fileID: 2132886293}
     motor: 1
     steering: 0
-  maxMotorTorque: 20
-  maxSteeringAngle: 40
+  maxMotorTorque: 3677.22
+  maxSteeringAngle: 35
   motor: 0
   steering: 0
-  wltrsfm: {fileID: 339257815}
+  wltrsfm: {fileID: 1875051269}
   bdy: {fileID: 5519564259080531347}
   strg: {x: 0, y: 0, z: 0}
   bdyyrt: {x: 0, y: 0, z: 0}
-  lstrg: {fileID: 0}
-  rstrg: {fileID: 0}
   y1: {fileID: 1471170416}
   y2: {fileID: 889762010}
   y1v: {x: 0, y: 0, z: 0}

@@ -12,8 +12,8 @@ public class OriginalAxleInfo {
     public bool steering;
 }
      
-public class WheelCollidereTestController : MonoBehaviour {
-    public List<OriginalAxleInfo> axleInfos; 
+public class WheelColliderTestController : MonoBehaviour {
+    public List<OriginalAxleInfo> axleInfos;
     public float maxMotorTorque;
     public float maxSteeringAngle;
 
@@ -24,8 +24,8 @@ public class WheelCollidereTestController : MonoBehaviour {
     public Transform bdy;
     public Vector3 strg;
     public Vector3 bdyyrt;//bdy y rot
-    public Rigidbody lstrg;
-    public Rigidbody rstrg;
+    // public Rigidbody lstrg;
+    // public Rigidbody rstrg;
 
     public Transform y1;//get the parent from the axle info list
     public Transform y2;
