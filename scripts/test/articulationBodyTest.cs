@@ -29,7 +29,7 @@ public class articulationBodyTest : MonoBehaviour
         }
         
         var yValue = this.articulationBodies[1].yDrive;
-        //controls the steering-arm's y rotation
+        //controls the steering-arm's y rotation (the first version's arm)
         //forward
         if (Input.GetKey(KeyCode.A) && !(yValue.target <= -35))
         {
@@ -43,7 +43,7 @@ public class articulationBodyTest : MonoBehaviour
             this.articulationBodies[1].yDrive = yValue;
         }
 
-        //controls the steering-arm's y rotation
+        //controls the steering-arm's y rotation (the optimised version's arm)
         //forward
         if (Input.GetKey(KeyCode.A) && !(yValue.target <= -35))
         {
